@@ -12,7 +12,7 @@ Follow the simple steps below to get started, submit your solutions, and contrib
 
 To copy this project to your local machine, open a terminal and run:
 
-git clone https://github.com/your-username/GROUP-DE-LA-COMPUTER-SCIENCE.git cd GROUP-DE-LA-COMPUTER-SCIENCE
+git clone https://github.com/ArntEech/GROUP-DE-LA-COMPUTER-SCIENCE.git cd GROUP-DE-LA-COMPUTER-SCIENCE
 
 2️⃣ Navigate to Your Folder
 
