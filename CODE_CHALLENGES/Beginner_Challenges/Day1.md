@@ -3,6 +3,7 @@
 ⚠️ Notice: Keep It Simple!
 
 🔹 Use only basic programming skills—avoid loops, functions, or advanced techniques.
+
 🔹 Focus on understanding syntax and core concepts before moving forward.
 
 
