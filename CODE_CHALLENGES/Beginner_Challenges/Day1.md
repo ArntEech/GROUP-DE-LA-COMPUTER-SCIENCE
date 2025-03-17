@@ -29,6 +29,7 @@ DISPLAY "String Concatenation is done with the + sign.
 DISPLAY "New lines can be created with a backslash and n.  
 
 🛠 What to fix?
+
 ✅ Syntax errors (e.g., missing/incorrect symbols, mismatched quotes)
 
 ✅ Function names (e.g., replace DISPLAY with the correct output function)
