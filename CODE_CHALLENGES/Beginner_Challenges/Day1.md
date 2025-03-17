@@ -30,7 +30,9 @@ DISPLAY "New lines can be created with a backslash and n.
 
 🛠 What to fix?
 ✅ Syntax errors (e.g., missing/incorrect symbols, mismatched quotes)
+
 ✅ Function names (e.g., replace DISPLAY with the correct output function)
+
 ✅ Formatting issues
 
 📝 **Hint**: Look up how to print output correctly in your programming language.
