@@ -3,6 +3,7 @@ public class Exercise2 {
         // Exercise2 --Debugging--
         System.out.println("Day1 - String Manipulation");
         System.out.println("String Concatenation is done with the '+' sign.");
+        // Print out
         System.out.println("e.g."+ "Hello" + "world");
         System.out.println("New lines can be created with a backslash and n.");
     }
