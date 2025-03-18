@@ -7,9 +7,9 @@ void main() {
   stdout.write("b: ");
   String? b = stdin.readLineSync();
 
-  String? x;
-  x = a;
-  a = b;
+  String? x = a;
+  String? y = b;
+  a = y;
   b = x;
 
   print("a: $a");
