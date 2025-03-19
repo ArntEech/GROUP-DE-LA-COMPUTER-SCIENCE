@@ -23,6 +23,7 @@ BMI Formula:
 BMI = weight(kg) ÷ (height(m)²)
 
 Example:
+
 🔹 Input: Enter your height in m: 1.75
            Enter your weight in kg: 70
 
@@ -36,6 +37,7 @@ Example:
 Create a program that calculates the time left if you were to live until 90 years old.
 
 Example Input and Output:
+
 🔹 Input: What is your current age? 56
 
 🔹 Output: You have 12410 days, 1768 weeks, and 408 months left.
