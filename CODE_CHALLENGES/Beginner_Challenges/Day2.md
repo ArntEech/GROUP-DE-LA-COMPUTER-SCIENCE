@@ -6,6 +6,7 @@
 Write a program that adds the digits in a two-digit number.
 
 Example:
+
 🔹 Input: 35
 
 🔹 Output: 3 + 5 = 8
