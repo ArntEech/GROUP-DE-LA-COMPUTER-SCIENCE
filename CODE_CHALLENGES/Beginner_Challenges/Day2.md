@@ -27,6 +27,7 @@ BMI = weight(kg) ÷ (height(m)²)
 Example:
 
 🔹 Input: Enter your height in m: 1.75
+           
            Enter your weight in kg: 70
 
 🔹 Output: Your Body Mass Index is:  22
