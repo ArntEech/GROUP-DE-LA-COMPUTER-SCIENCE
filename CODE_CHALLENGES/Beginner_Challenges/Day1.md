@@ -3,6 +3,7 @@
 ⚠️ Notice: Keep It Simple!
 
 🔹 Use only basic programming skills—avoid loops, functions, or advanced techniques.
+
 🔹 Focus on understanding syntax and core concepts before moving forward.
 
 
@@ -72,6 +73,7 @@ Write a program that **switches** the values stored in the variables `a` and `b`
 
 # Don't change the code below 
 a = input("a: ")
+
 b = input("b: ")
 # Don't change the code above
 
