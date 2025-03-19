@@ -2,4 +2,4 @@
 //'''
 //Instructions;
 
-console.log("Day 1 - Python Print Function"/n+"The function is declared like this:"/n+"print('what to print')")
+console.log("Day 1 - Python Print Function"/n+"The function is declared like this:"/n+"print('what to print')");
