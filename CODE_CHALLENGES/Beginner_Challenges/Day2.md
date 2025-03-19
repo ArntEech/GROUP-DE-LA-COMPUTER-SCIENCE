@@ -3,6 +3,7 @@
 
 ## ➕ Exercise 5 - Data Types, Type Conversion & Type Checking  
 📌 **Instructions:**
+
 Write a program that adds the digits in a two-digit number.
 
 Example:
@@ -16,6 +17,7 @@ Example:
 
 ## 🧮 Exercise 6 - BMI Calculator
 📌 **Instructions:**
+
 Write a program that calculates the Body Mass Index (BMI) from a user's weight and height.
 
 BMI Formula:
@@ -34,6 +36,7 @@ Example:
 
 ## ⏳ Exercise 7 - Life in Weeks
 **📌 Instructions:**
+
 Create a program that calculates the time left if you were to live until 90 years old.
 
 Example Input and Output:
