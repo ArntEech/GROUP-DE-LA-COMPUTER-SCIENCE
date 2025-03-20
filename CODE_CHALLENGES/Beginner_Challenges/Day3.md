@@ -132,7 +132,7 @@ NB:
 
 
 
-##❤️ Execise 12 - Love Calculator Exercise
+## ❤️ Execise 12 - Love Calculator Exercise
 
 📌 **Instructions:**
 
