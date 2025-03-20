@@ -116,11 +116,17 @@ Do you want extra cheese? Y of N: N
 Your final bill is: $28
 
 NB: 
-+ Small Pizza: $15               | Pepperoni for Small Pizza: + $2
++ Small Pizza: $15               
 
-+ Medium Pizza: $20              | Pepperoni for Medium or Large Pizza: + $3
++ Medium Pizza: $20              
 
-+ Large Pizza: $25               | Extra cheese for any size pizza: + $1
++ Large Pizza: $25
+  
++ Pepperoni for Medium or Large Pizza: + $3
+  
++ Pepperoni for Small Pizza: + $2
+  
++ Extra cheese for any size pizza: + $1
 
 📝 Hint: Use nested conditionals to calculate the final cost.
 
