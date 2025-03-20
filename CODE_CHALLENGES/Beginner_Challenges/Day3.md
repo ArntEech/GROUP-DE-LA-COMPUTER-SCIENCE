@@ -158,18 +158,29 @@ e.g:
 Arianna Rebolini and Channing Tatum
 
 Procedure:
-T (2 occurances of 'T' in the names listed)    L (1 occurances of 'L' in the names listed)
 
-R (2 occurances of 'R' in the names listed)    O (1 occurances of 'O' in the names listed)
+**For TRUE Occurances**
 
-U (1 occurances of 'U' in the names listed)    V (0 occurances of 'V' in the names listed)
+T (2 occurances of 'T' in the names listed)    
 
-E (1 occurances of 'E' in the names listed)    E (1 occurances of 'E' in the names listed)
+R (2 occurances of 'R' in the names listed)    
 
-__________________________________________________________________________________________
+U (1 occurances of 'U' in the names listed)    
 
-   6                                              3     
-___________________________________________________________________________________________
+E (1 occurances of 'E' in the names listed)   
+
+
+**For LOVE Occurances**
+
+L (1 occurances of 'L' in the names listed)
+
+O (1 occurances of 'O' in the names listed)
+
+V (0 occurances of 'V' in the names listed)
+
+E (1 occurances of 'E' in the names listed)
+
+Percentage Score: 63
 
 *Conclusions:*
 
