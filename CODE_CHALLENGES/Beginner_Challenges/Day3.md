@@ -77,11 +77,11 @@ Example:
 
 🔹input:
 
-2400                     | 1989
-                         |
+2400                     
+                        
 🔹output: 
-                 |
-Leap year.               | Not a leap year.
+
+Leap year.       
 
 📝 Hint: Use conditional statements to check each rule in order.
 
@@ -116,12 +116,18 @@ Do you want extra cheese? Y of N: N
 Your final bill is: $28
 
 NB: 
-+ Small Pizza: $15               | Pepperoni for Small Pizza: + $2
++ Small Pizza: $15                
 
-+ Medium Pizza: $20              | Pepperoni for Medium or Large Pizza: + $3
++ Medium Pizza: $20
 
-+ Large Pizza: $25               | Extra cheese for any size pizza: + $1
++ Large Pizza: $25
 
++ Pepperoni for Medium or Large Pizza: + $3
+   
++ Pepperoni for Small Pizza: + $2
+
++ Extra cheese for any size pizza: + $1
+ 
 📝 Hint: Use nested conditionals to calculate the final cost.
 
 
@@ -151,7 +157,10 @@ e.g:
 
 Arianna Rebolini and Channing Tatum
 
-Procedure:
+**Procedure:**
+
+**For TRUE Occurance**:
+
 T (2 occurances of 'T' in the names listed)    L (1 occurances of 'L' in the names listed)
 
 R (2 occurances of 'R' in the names listed)    O (1 occurances of 'O' in the names listed)
@@ -160,10 +169,17 @@ U (1 occurances of 'U' in the names listed)    V (0 occurances of 'V' in the nam
 
 E (1 occurances of 'E' in the names listed)    E (1 occurances of 'E' in the names listed)
 
-__________________________________________________________________________________________
+**For LOVE Occurance**:
 
-   6                                              3     
-___________________________________________________________________________________________
+L (1 occurances of 'L' in the names listed)
+
+O (1 occurances of 'O' in the names listed)
+
+V (0 occurances of 'V' in the names listed)
+
+E (1 occurances of 'E' in the names listed)    
+
+Percentage score: 63
 
 *Conclusions:*
 
