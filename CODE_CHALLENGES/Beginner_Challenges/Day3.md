@@ -77,11 +77,11 @@ Example:
 
 🔹input:
 
-2400                      1989
+2400                      
                          
 🔹output: 
                  
-Leap year.               Not a leap year.
+Leap year              
 
 📝 Hint: Use conditional statements to check each rule in order.
 
