@@ -7,6 +7,7 @@ public class challenge2_2 {
      Scanner sc = new Scanner(System.in);
      System.out.println("your weight is:");
 
+Java-programming-b3
 double weight=sc.nextDouble();
 System.out.println("your height is:");
 double height=sc.nextDouble();
@@ -30,6 +31,14 @@ else{
     System.out.println("You are clnically obese");
 }
 
+int weight=sc.nextInt();
+System.out.println("your height is:");
+int height=sc.nextInt();
+int bmi=weight/(height*height);
+System.out.println("your weight is:"+ weight + "kg");
+System.out.println("your height is:"+height + "m");
+System.out.println("your Body Mass Index is:" + bmi);
+main
     }
     
 }
