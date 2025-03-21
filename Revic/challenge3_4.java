@@ -1,85 +1,51 @@
 package Revic;
-import java.util.Scanner;
+import java.util.Scanner; 
+
 public class challenge3_4 {
-   public static void main (String args[]){
-Scanner sc= new Scanner(System.in);
-System.out.println("What is your name ?");
-String name1=sc.next();
-System.out.println("What is his/her name?");
-String name2=sc.next();
-int countT =0;
-int countR=0;
-int countU=0;
-int countE=0;
-int countL=0;
-int countO=0;
-int countV=0;
-//int countE=0;
-for (int i=0; i<name1.length(); i++){
-    char u=Character.toUpperCase(name1.charAt(i));
-if (u=='T'){
-   countT=countT+1;
-}
-if (u=='R'){
-   countR=countR+1;
-}if (u=='U'){
-   countU=countU+1;
-}if (u=='E'){
-   countE=countE+1;
-}if (u=='L'){
-   countL=countL+1;                                              
-}if (u=='O'){
-   countO=countO+1;
-}if (u=='V'){
-   countV=countV+1;
-}
+    public static void main(String[] args) {
+        
+ Scanner sc= new Scanner(System.in);
+    System.out.println("What is your name ?");
+   String name1= sc.nextLine();
+   System.out.println("What is his/her name ?");
+ String   name2 =sc.nextLine();
+ String names  =name1 +name2;
+ String name=names.toUpperCase();
+ //System.out.println(name);
+ int count1=0;
+ int count2=0;
+ for(int i=0; i<name.length(); i++){
+    char a=name.charAt(i);
+    if(a=='T'||a=='R'||a=='U'||a=='E'){
+        count1++;
+    }
+    if(a=='L'||a=='O'||a=='V'||a=='E'){
+        count2++;
+    }
+    }
+   String count3=String.valueOf(count1);
+   String count4=String.valueOf(count2);
+   String counts=count3+count4;
+   System.out.println("Your score is: "+ counts+"%");
 
-
+   int count= Integer.parseInt(counts);
+   
+   if (count<10||count>90){
+    System.out.println("You go together like coke and mentos");
    }
-   System.out.println("For you:                                                                                                                                                                                                                                                                                                                                                                                             ");
-System.out.println("T occurs "+countT+" times");
-System.out.println("R occurs "+countR+" times");
-System.out.println("U occurs "+countU+" times");
-System.out.println("E occurs "+countE+" times");
-System.out.println("L occurs "+countL+" times");
-System.out.println("O occurs "+countO+" times");
-System.out.println("V occors "+countV+" times");
+   else if (count>=40 && count<=50){
+    System.out.println("You are alright together.");
+   }
+   else{
+    System.out.println("");
+   }
+ //System.out.println(name);
+ //System.out.println(count1);
+ //System.out.println(count2);
 
 
-countT =0;
-countR=0;
- countU=0;
- countE=0;
- countL=0;
- countO=0;
-  countV=0;
-   for (int i=0; i<name2.length(); i++){
-      char u= Character.toUpperCase(name2.charAt(i));
-  if (u=='T'){                                                                                                                        
-     countT=countT+1;
-  }
-  if (u=='R'){
-     countR=countR+1;
-  }if (u=='U'){
-     countU=countU+1;
-  }if (u=='E'){
-     countE=countE+1;
-  }if (u=='L'){
-     countL=countL+1;
-  }if (u=='O'){
-     countO=countO+1;
-  }if (u=='V'){
-     countV=countV+1;
-  }
 
-     }
-     System.out.println("For him/her: ");
-System.out.println("T occurs "+countT+" times");
-System.out.println("R occurs "+countR+" times");
-System.out.println("U occurs "+countU+" times");
-System.out.println("E occurs "+countE+" times");
-System.out.println("L occurs "+countL+" times");
-System.out.println("O occurs "+countO+" times");
-System.out.println("V occors "+countV+" times");
+    }
+
 }
-}
+    
