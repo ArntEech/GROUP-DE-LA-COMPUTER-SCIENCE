@@ -12,7 +12,8 @@
 
 + You should generate a random number, either 0 or 1
 
-+ Then use that number to print out Heads or 
++ Then use that number to print out Heads or Tails
+  
 
 
 ## Exercise 14 - Banker Roulette
@@ -35,6 +36,7 @@ Micheal, Revic, Arnold, Stephannie, Philipa
 Revic is going to buy the meal today!
 
 
+
 ## Exercise 15 - Treasure Map.
 
 📌 **Instructions:**
@@ -43,12 +45,12 @@ Revic is going to buy the meal today!
 
 + The map is made of 3 rows of blank squares.
 
-     1    2     3
-1 ["⬜️","⬜️","⬜️"]
+              
+ ["⬜️","⬜️","⬜️"]
 
-2 ["⬜️","⬜️","⬜️"]
+ ["⬜️","⬜️","⬜️"]
 
-3 ["⬜️","⬜️","⬜️"]
+ ["⬜️","⬜️","⬜️"]
 
 + Your program should allow you to enter the position of the treasure using a two-digit system.
 
