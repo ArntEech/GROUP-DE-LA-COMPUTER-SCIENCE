@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import java.util.Scanner;
 public class Exercise10 {
     public static void main(String[] args) {
@@ -16,14 +16,12 @@ public class Exercise10 {
         } else{
             System.out.println("The year "+year+" is not a Leap year!");
         }
+        input.close();
 
-
-
-=======
-public class Exercise10 {
-    public static void main(String[] args) {
-        
->>>>>>> origin/main
     }
 }
+
+
+
+
 
