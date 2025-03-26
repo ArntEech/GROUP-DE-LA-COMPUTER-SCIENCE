@@ -48,9 +48,6 @@ if (cheese === "Y"){
 
 console.log("Your final bill is $"+ bill);
 
-<<<<<<< HEAD
 //Exercise 12
 const maleName = prompt("What is your name?");
 const femaleName = prompt("What is your name?");
-=======
->>>>>>> eca6e850bbdffdcced0bf2dbbe7d79da3cad0218
