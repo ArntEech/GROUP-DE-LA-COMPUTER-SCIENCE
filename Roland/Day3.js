@@ -18,9 +18,12 @@ function isLeapYear(year){
         console.log("Year is a leap year")
     }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> eca6e850bbdffdcced0bf2dbbe7d79da3cad0218
 
 //Exercise 11
-
 console.log("Welcome to Papa's Pizza");
 const size = prompt("What size pizza do you want? S, M, or L");
 const pepperoni = prompt("Do you want pepperoni? Y or N");
@@ -45,6 +48,9 @@ if (cheese === "Y"){
 
 console.log("Your final bill is $"+ bill);
 
+<<<<<<< HEAD
 //Exercise 12
 const maleName = prompt("What is your name?");
 const femaleName = prompt("What is your name?");
+=======
+>>>>>>> eca6e850bbdffdcced0bf2dbbe7d79da3cad0218
