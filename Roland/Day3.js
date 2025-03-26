@@ -19,8 +19,8 @@ function isLeapYear(year){
     }
 }
 
-//Exercise 11
 
+//Exercise 11
 console.log("Welcome to Papa's Pizza");
 const size = prompt("What size pizza do you want? S, M, or L");
 const pepperoni = prompt("Do you want pepperoni? Y or N");
@@ -44,3 +44,4 @@ if (cheese === "Y"){
 }
 
 console.log("Your final bill is $"+ bill);
+
