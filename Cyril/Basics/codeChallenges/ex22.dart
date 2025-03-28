@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main() {
-  stdout.write("Enter a number for multiplication table:");
+  stdout.write("Enter a number for multiplication table: ");
   int n = int.parse(stdin.readLineSync()!);
   multiplicationTable(n);
 }
