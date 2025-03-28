@@ -10,6 +10,7 @@ function nameGen(){
 }
 console.log(`Your band name is ${nameGen()}`);
 
+
 //Project 2
 console.log("Welcome to checkout");
 let bill = parseFloat(prompt("What is your bill amount\n"));
@@ -23,3 +24,4 @@ function finalBill(){
 }
 
 console.log(`Each person would pay $ ${finalBill()}`);
+=======
