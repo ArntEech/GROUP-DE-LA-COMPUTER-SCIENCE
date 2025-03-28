@@ -1,8 +1,8 @@
 const userName = prompt("Key in your name");
 
-if (username){
+if (userName){
     const charCount = userName.length;
-    console.log('The number of characters is ${charCount}');
+    console.log('The number of characters is ' +charCount);
 }else{
     console.log("No name entered");
 }
@@ -19,9 +19,9 @@ console.log(a);
 console.log(b);
 
                 //ARITHMETIC METHOD
-let a = 3;
-let b = 4;
+let c = 3;
+let d = 4;
 
-a = a + b;
-b = a - b;
-a = a - b;
+c = c + d;
+d = c - d;
+c = c - d;
