@@ -2,7 +2,7 @@
 
 ⚠️ Notice: In these exercises, use functions and loops to make your code efficient.
 
-## 🔄 Exercise 13 - Even or Odd Checker
+## 🔄 Exercise 20 - Even or Odd Checker
 
 **📌 Instructions:**
 
@@ -28,7 +28,7 @@ Odd Number
 
 📝 Hint: Use the modulus (%) operator to determine even and odd numbers.
 
-## 🔢 Exercise 14 - Sum of All Numbers
+## 🔢 Exercise 21 - Sum of All Numbers
 
 **📌 Instructions:**
 
@@ -55,7 +55,7 @@ The sum of numbers from 1 to 5 is: 15
 📝 Hint: Use a for or while loop to iterate through the numbers.
 
 
-## ✨ Exercise 15 - Multiplication Table Generator
+## ✨ Exercise 22 - Multiplication Table Generator
 
 **📌 Instructions:**
 
@@ -86,7 +86,7 @@ Enter a number: 3
 📝 Hint: Use a loop to iterate from 1 to 10 and multiply by N.
 
 
-## 🔢 Exercise 16 - Count the Digits
+## 🔢 Exercise 23 - Count the Digits
 
 **📌 Instructions:**
 
@@ -113,7 +113,7 @@ The number 5478 has 4 digits.
 📝 Hint: Convert the number to a string or use a loop to count digits.
 
 
-## 🔠 Exercise 17 - Reverse a String
+## 🔠 Exercise 24 - Reverse a String
 
 **📌 Instructions:**
 
