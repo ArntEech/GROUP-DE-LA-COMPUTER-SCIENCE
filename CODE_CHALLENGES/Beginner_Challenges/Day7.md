@@ -1,35 +1,37 @@
-# DAY SEVEN - FUNCTIONS WITH INPUT
+# 🎯 **DAY SEVEN - FUNCTIONS WITH INPUT**  
 
+## 🎨 **Exercise 25 - Paint Area Calculator**  
 
-## Exercise 25 - Paint Area Calculator
+### 📝 **Instructions:**  
 
-**Instructions:**
+🖌️ You are painting a wall, and the instructions on the **paint can** state:  
 
-+ Your are painting a wall. The instructions on the *paint can* says that, *1 can of paint can cover 5 square meters of wall*.
+🔹 **1 can of paint can cover 5 square meters of wall**.  
 
-+ Given a random height and width of wall, calculate how many cans of paint you'll need to buy.
+🔹 Given the **height** and **width** of the wall, calculate how many cans of paint you need.
 
-+ number of cans = (wall height * wall width) / coverage per can.
+🔹 Since you can't buy **half a can**, always **round up** to the nearest whole number.  
 
-+ e.g Height = 2, Width = 4, Coverage = 5 
+### 📏 **Formula:**  
+\[
+\text{number of cans} = \frac{\text{wall height} \times \text{wall width}}{\text{coverage per can}}
+\]  
 
-+ number of cans = (2 * 4) / 5 = 1.6
+### 🖥️ **Example:**  
+
+✅ **Input:**  
+
+Height of wall: 3  
+
+Width of wall: 9  
+
+✅ Output:
+
+You'll need 5 cans of paint. 🏠🎨
 
 + But because you can't buy 0.6 of a can of paint, the result should be rounded up to 2 cans(which is the nearest whole number).
 
 + **NB:** The name of the function and parameters must match those on the starting code for the code to function properly.
-
-**Example:**
-
-+ Input :
-
-Height of wall: 3
-
-Width of wall: 9
-
-+ Output:
-
-You'll need 5 cans of paint.
 
 **Starting Code:**
 
@@ -50,13 +52,14 @@ test_w = Input("Width of wall: ") //Type the syntax equivalent of your programmi
 
 coverage = 5 
 
-paint_calc(height = test_h, width = test_w, cover = coverage) // Don't change the name of the function or the parameters given but rather modify this code to match the syntax by which you call functions/methods in your programming language.
+paint_calc(height = test_h, width = test_w, cover = coverage) 
+
+*🔄 Don't change the function name or parameters! Just modify it to match your programming language syntax.*
 
 
+# 🔢 Exercise 26 - Prime Number Checker
 
-# Exercise 26 - Prime Number Checker
-
-**Instructions:**
+### 📝 **Instructions:**  
 
 + Write a function/method that chects whether if a number passed into it is a prime number or not.
 
