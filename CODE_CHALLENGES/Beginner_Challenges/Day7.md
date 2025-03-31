@@ -13,9 +13,12 @@
 🔹 Since you can't buy **half a can**, always **round up** to the nearest whole number.  
 
 ### 📏 **Formula:**  
-\[
-\text{number of cans} = \frac{\text{wall height} \times \text{wall width}}{\text{coverage per can}}
-\]  
+
++ number of cans = (wall height * wall width) / coverage per can.  
+
++ e.g Height = 2, Width = 4, Coverage = 5   + number of cans = (2 * 4) / 5 = 1.6
+
++ But because you can't buy 0.6 of a can of paint, the result should be rounded up to 2 cans(which is the nearest whole number). 
 
 ### 🖥️ **Example:**  
 
