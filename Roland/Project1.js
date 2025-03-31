@@ -47,3 +47,34 @@ if ((play === "rock" && getRandomSelection ==="scissors") || (play === "scissors
 } else if ((play === "scissors" && getRandomSelection ==="rock") || (play === "paper" && getRandomSelection ==="scissors")|| (play === "rock"&& getRandomSelection === "paper")){
     console.log("Computer Wins")
 }
+
+//Project 4
+
+let letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
+    'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
+
+let numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
+
+let symbols = ['!', '#', '$', '%', '&', '(', ')', '*', '+'];
+
+function generatePassword(){
+const numLetters = parseInt(prompt("Number of letters\n"));
+const numSymbols = parseInt(prompt("Number of symbols\n"));
+const numNumbers = parseInt(prompt("Number of numbers\n"));
+
+const letterCharacters = Array.from({ length: numLetters }, () => letters[Math.floor(Math.random() * letters.length)]);
+const symbolCharacters = Array.from({ length: numSymbols }, () => symbols[Math.floor(Math.random() * symbols.length)]);
+const numberCharacters = Array.from({ length: numNumbers }, () => numbers[Math.floor(Math.random() * numbers.length)]);
+
+const allChars = [...letterCharacters, ...symbolCharacters, ...numberCharacters];
+  for (let i = allChars.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [allChars[i], allChars[j]] = [allChars[j], allChars[i]];
+  }
+
+  // Convert to string and return
+  console.log( allChars.join(''));
+  
+}
+
+generatePassword();
