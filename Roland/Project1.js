@@ -24,7 +24,6 @@ function finalBill(){
 }
 
 console.log(`Each person would pay $ ${finalBill()}`);
-<<<<<<< HEAD
 
 //Project 3
 console.log("Welcome to Rock,Paper,Scissors ultimate");
@@ -48,6 +47,4 @@ if ((play === "rock" && getRandomSelection ==="scissors") || (play === "scissors
 } else if ((play === "scissors" && getRandomSelection ==="rock") || (play === "paper" && getRandomSelection ==="scissors")|| (play === "rock"&& getRandomSelection === "paper")){
     console.log("Computer Wins")
 }
-=======
-=======
->>>>>>> f6b624d2ae59b0d1a253b919d4bf29121f03361d
+
