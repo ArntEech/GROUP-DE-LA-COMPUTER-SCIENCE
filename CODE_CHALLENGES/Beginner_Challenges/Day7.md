@@ -16,7 +16,9 @@
 
 + number of cans = (wall height * wall width) / coverage per can.  
 
-+ e.g Height = 2, Width = 4, Coverage = 5   + number of cans = (2 * 4) / 5 = 1.6
++ e.g Height = 2, Width = 4, Coverage = 5
+
++ number of cans = (2 * 4) / 5 = 1.6
 
 + But because you can't buy 0.6 of a can of paint, the result should be rounded up to 2 cans(which is the nearest whole number). 
 
@@ -80,7 +82,9 @@ paint_calc(height = test_h, width = test_w, cover = coverage)
 
 
 -- You solution should be above this line --
+
 n = Input("Check this number: ")
+
 prime_checker(number = n) //use the same instructions in exercise 25 regarding the named function.
 
 
