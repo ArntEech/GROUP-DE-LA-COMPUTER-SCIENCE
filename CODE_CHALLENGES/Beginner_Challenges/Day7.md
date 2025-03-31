@@ -50,7 +50,7 @@ test_w = Input("Width of wall: ") //Type the syntax equivalent of your programmi
 
 coverage = 5 
 
-paint_calc(height = test_h, width = test_w, cover = coverage) // Don't change the name of the function or the parameters given but rather modify this code to match the syntax by which you call functions/methods in you programming language.
+paint_calc(height = test_h, width = test_w, cover = coverage) // Don't change the name of the function or the parameters given but rather modify this code to match the syntax by which you call functions/methods in your programming language.
 
 
 
