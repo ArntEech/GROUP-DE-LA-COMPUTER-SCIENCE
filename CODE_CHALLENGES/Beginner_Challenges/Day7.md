@@ -34,8 +34,6 @@ Width of wall: 9
 
 You'll need 5 cans of paint. 🏠🎨
 
-+ But because you can't buy 0.6 of a can of paint, the result should be rounded up to 2 cans(which is the nearest whole number).
-
 + **NB:** The name of the function and parameters must match those on the starting code for the code to function properly.
 
 **Starting Code:**
