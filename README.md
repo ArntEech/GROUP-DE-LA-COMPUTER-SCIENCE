@@ -56,5 +56,6 @@ git push origin main
 
 ## 🚀 Top Contributors
 <p align="center">
-  <img src="https://next.ossinsight.io/widgets/official/compose-recent-top-contributors/thumbnail.png?repo_id=949506670&image_size=auto" alt="Top Contributors">
+  <img src="https://next.ossinsight.io/widgets/official/compose-recent-top-contributors/thumbnail.png?repo_id=949506670&image_size=auto" alt="Top Contributors" width="400">
 </p>
+
