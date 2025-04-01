@@ -1,6 +1,6 @@
 //Exercise13
 function coinToss(){
-    const coin = [Heads, Tails];
+    const coin = ["Heads", "Tails"];
     return coin[Math.floor(Math.random()* coin.length)];
 }
 console.log(`${coinToss()}`);
