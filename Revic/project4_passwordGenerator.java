@@ -44,27 +44,31 @@ for(int i=0; i<=let-1; i++){
 }
 
 ///System.out.println();
-=======
+
 char[] numa= new char[num];
 char[] syma=new char[sym];
 char[] leta=new char[let];
+// for loops to pick random numbers and store in empty array
 for(int i=0; i<=num-1; i++){
-    char number=numbers[rm.nextInt(num)];
+    char number=numbers[rm.nextInt(numbers.length)];
     numa[i]=number;
-    //System.out.print(number);
+ //   System.out.print(numa[i]);
 }
+//System.out.println();
 for(int i=0; i<sym; i++){
-    char symbol=symbols[rm.nextInt(sym)];
+    char symbol=symbols[rm.nextInt(symbols.length)];
     syma[i]=symbol;
-    //System.out.print(number);
+   //System.out.print(syma[i]);
 }
+//System.out.println();
+
 for(int i=0; i<=let-1; i++){
-    char letter=letters[rm.nextInt(let)];
+    char letter=letters[rm.nextInt(letters.length)];
     leta[i]=letter;
-    //System.out.print(number);
+    //System.out.print(leta[i]);
 }
 
-//System.out.println(number);
+///System.out.println();
 /*System.out.print(numa);
 System.out.print(syma);
 System.out.print(leta);
@@ -79,7 +83,7 @@ for(int i=0; i<num; i++){
 char[] total = new char[num+let+sym];
 for(int i=0; i<num; i++){
     total[i]=numa[i];
-  //  System.out.println(total[i]);
+   // System.out.print(total[i]);
 
 }
 
@@ -135,26 +139,43 @@ System.out.println(total.length);*/
     //System.out.println(total[k]);
 
 }
-/*for(int i=0; i<num+let+sym;i++){
-    System.out.print(total[i]);
+//System.out.println();
+for(int i=0; i<num+let+sym;i++){
+  //  System.out.print(total[i]);
 
-}*/
+}
+//System.out.println();
+
 //System.out.println("");
 //System.out.println(total[11]);
 //System.out.println(total.length);
-System.out.print("Your generated password is: ");
-char[] all = new char[total.length];
+//System.out.print("Your generated password is: \n");
+/*char[] all = new char[total.length];
 for (int i=0; i<total.length; i++){
     char fin =total[rm.nextInt(total.length)];
-all[i]= fin;
-System.out.print(all[i]);
+//all[i]= fin;
+//System.out.print(all[i]);
 
 System.out.print(fin);
 
-}
+}*/
 //for(int i=0;)
 /*System.out.println(letter);
 System.out.println(symbol);*/
+System.out.print("Your generated password is: \n");
+for(int i=0; i<total.length;i++){
+    int rd= rm.nextInt(total.length);
+    char name=total[i];
+    total[i]=total[rd];
+    total[rd]=name;
+}
+
+//System.out.println();
+for(int i=0; i<total.length; i++){
+    System.out.print(total[i]);
+}
+/*System.out.println();
+System.out.println(total.length);*/
     }
     
 }
