@@ -22,3 +22,13 @@ for (let n = 0; n < array.length ; n++){
     }
 }
 console.log(maxNumber);
+
+//Exercise 18
+let sum = 0;
+for (let i = 0; i < 101; i++){
+    if ((i % 2 )=== 0){
+        sum += i;
+    }
+}
+console.log(`The sum of all even numbers between 1 and 100 is ${sum}`);
+
