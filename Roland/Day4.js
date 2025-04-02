@@ -7,11 +7,13 @@ console.log(`${coinToss()}`);
 
 //Exercise14
 let names = [];
-names = prompt("Input the names");
+names = (prompt("Input the names\n")).split(",").map(name => name.trim());;
 
 function randomName(){
-    return names[Math.floor(Math.random() * names.length())];
+    return names[Math.floor(Math.random() * names.length)];
 }
+
+console.log(`${randomName()} is paying today`);
 
 //Exercise15
 
