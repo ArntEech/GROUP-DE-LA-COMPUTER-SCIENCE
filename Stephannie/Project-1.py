@@ -27,5 +27,3 @@ for num in range(3, 0, -1):
 #Output Message
 print(f"Your BAND_NAME is {band_name}: How does is sound?")
 print("Yes, Amazing")
-
-
