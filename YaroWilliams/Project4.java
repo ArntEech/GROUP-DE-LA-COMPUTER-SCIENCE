@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
@@ -28,25 +29,37 @@ public class Project4 {
 
         StringBuilder sb = new StringBuilder();
 
-        for(int i=0; i<=numOfLetters; i++){
+        for(int i=0; i<numOfLetters; i++){
             // randomly get the index of the symbols array
             int randomIndex = random.nextInt(symbols.length);
             // append the symbol to the StringBuilder
-            sb.append(symbols[randomIndex]);
+            sb.append(letters[randomIndex]);
         }
-        for(int i =0;i <=numOfNumbers; i++){
+        for(int i =0;i <numOfNumbers; i++){
             int randomIndex = random.nextInt(numbers.length);
             sb.append(numbers[randomIndex]);
         }
-        for(int i = 0; i<= numOfSymbols; i++){
+        for(int i = 0; i< numOfSymbols; i++){
             int randomIndex = random.nextInt(symbols.length);
             sb.append(symbols[randomIndex]);
         }
 
-        List<String> charList = new ArrayList<>();
-        for (char c : sb.toString().toCharArray()) {
-            charList.add(String.valueOf(c));
-        }
+       // convert stringBuilder to List
+
+       List<Character> passwordChars = new ArrayList<>();
+       for(int i =0; i<sb.length();i++){
+            passwordChars.add(sb.charAt(i));
+       }
+
+       Collections.shuffle(passwordChars);
+
+       StringBuilder shuffledPassword = new StringBuilder();
+
+       for(char c : passwordChars){
+        shuffledPassword.append(c);
+       }
+
+       System.out.println("Here is your password: "+shuffledPassword);
     }
 
 }
