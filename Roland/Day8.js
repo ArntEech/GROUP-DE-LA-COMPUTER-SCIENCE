@@ -40,4 +40,4 @@ const travel_log = {
         visits: 5,
         cities : ["Berlin", "Hamburg", "Stuttgart"]
     ];
-}
+};
