@@ -78,3 +78,17 @@ const allChars = [...letterCharacters, ...symbolCharacters, ...numberCharacters]
 }
 
 generatePassword();
+
+//Project 5
+
+console.log("Welcome to Treasure Island.");
+console.log("Your mission is to find the treasure.");
+
+let decision
+decision = prompt("You're at a crossroad. Where do you want to go? Type \"left\" or \"right\"").toLowerCase;
+
+if (decision === "right"){
+    console.log("You've fallen into a hole, GAME OVER");
+} else if (decision === "left"){
+    console.log("You've come to a lake");
+}
