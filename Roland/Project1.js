@@ -84,11 +84,60 @@ generatePassword();
 console.log("Welcome to Treasure Island.");
 console.log("Your mission is to find the treasure.");
 
+let gameOver = false
 let decision
-decision = prompt("You're at a crossroad. Where do you want to go? Type \"left\" or \"right\"").toLowerCase;
 
-if (decision === "right"){
-    console.log("You've fallen into a hole, GAME OVER");
-} else if (decision === "left"){
-    console.log("You've come to a lake");
+while (!gameOver){
+    try{
+    decision = prompt("You're at a crossroad. Where do you want to go? Type \"left\" or \"right\"\n").toLowerCase();
+
+    if (decision === "right"){
+        console.log("You've fallen into a hole, GAME OVER");
+        gameOver = true;
+        break;
+    } else if (decision === "left"){
+        console.log("You've come to a lake");
+    } else {
+        throw new Error ("Make sure to input Left or Right");
+    }
+    }
+    catch(error){
+        console.log(error.message)
+    }
+
+
+    try{
+       decision = prompt("There is an island in the middle of the lake. Type \"wait\" to wait for a boat. Type \"swim\" to swim across.\n").toLowerCase();
+       
+       if (decision === "wait"){
+           console.log("You arrive at the island unharmed");
+           
+       } else if (decision === "swim"){
+           console.log("You were attacked and killed by trout, GAME OVER");
+           gameOver = true;
+           break;
+       } else {
+           throw new Error ("Make sure to input wait or swim");
+       }
+    }
+    catch (error){ console.log(error.message) }
+    
+    
+        decision = prompt("There is a house with 3 doors. One red, one yellow and one blue. Which colour do you choose?\n").toLowerCase();
+        
+        if (decision === "red"){
+            console.log("It's a room full of fire. GAME OVER");
+            gameOver = true;
+            break;
+        } else if (decision === "yellow"){
+            console.log("You found the treasure! You Win!");
+            break;
+        }else if (decision === "blue"){
+            console.log("You enter a room of beasts. GAME OVER");
+            gameOver = true;
+            break;
+        } else { console.log("You chose a door that doesn't exist. GAME OVER.")
+            gameOver = true;
+            break;
+        }
 }
