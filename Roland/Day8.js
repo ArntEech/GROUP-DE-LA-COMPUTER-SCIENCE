@@ -29,3 +29,26 @@ for (const name in scoresData){
 console.log(ratingsData);
 
 //Exercise 28
+const travel_log = [
+    {
+        country: "France",
+        visits: 12,
+        cities: ["Paris", "Lille", "Dijon"]
+    },
+    {
+        country: "Germany",
+        visits: 5,
+        cities: ["Berlin", "Hamburg", "Stuttgart"]
+    }
+];
+
+function addNewCountry (name, numberOfVisits,cities){
+    travel_log.push({
+        country: name,
+        visits: numberOfVisits,
+        cities: cities
+    })
+}
+
+addNewCountry("Russia", 2, ["Moscow", "Saint Petersburg"]);
+console.log(travel_log);
