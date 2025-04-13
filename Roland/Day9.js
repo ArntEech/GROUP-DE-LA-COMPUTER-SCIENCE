@@ -1,3 +1,4 @@
+//Exercise 29
 function isLeap(year){
     if (year % 4 === 0){
         if (year % 100 === 0){
