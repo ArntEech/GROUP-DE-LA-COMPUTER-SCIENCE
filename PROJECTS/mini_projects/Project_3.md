@@ -1,4 +1,4 @@
-# 🎮 Project 4 - Rock, Paper, Scissors  
+# 🎮 Project 3 - Rock, Paper, Scissors  
 
 ## 📌 Instructions  
 
