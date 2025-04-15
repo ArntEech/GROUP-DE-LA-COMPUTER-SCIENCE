@@ -1,5 +1,3 @@
-import math
-
 print("Welcome to the Tip Calculator!")
 
 totalBill = float(input("What was the total bill: $"))
