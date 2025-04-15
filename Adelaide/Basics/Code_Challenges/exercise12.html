@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Love Calculator 💘</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #ffebf0, #ffe9ec);
+      color: #333;
+      padding: 40px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #e91e63;
+      font-size: 2.5em;
+    }
+
+    .box {
+      background: #fff;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      max-width: 500px;
+      margin: auto;
+    }
+
+    input {
+      padding: 10px;
+      margin: 10px 0;
+      width: 80%;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1em;
+    }
+
+    button {
+      padding: 10px 25px;
+      font-size: 1em;
+      background-color: #e91e63;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #c2185b;
+    }
+
+    #result {
+      margin-top: 20px;
+      font-size: 1.3em;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>💘 Love Calculator 💘</h1>
+  <div class="box">
+    <p>Check your compatibility score!</p>
+    <input type="text" id="name1" placeholder="Enter your name">
+    <input type="text" id="name2" placeholder="Enter their name">
+    <br>
+    <button onclick="calculateLove()">Calculate</button>
+    <div id="result"></div>
+  </div>
+
+  <script>
+    function calculateLove() {
+      const name1 = document.getElementById("name1").value.toLowerCase();
+      const name2 = document.getElementById("name2").value.toLowerCase();
+      const combinedNames = name1 + name2;
+
+      const trueCount = countLetters(combinedNames, "true");
+      const loveCount = countLetters(combinedNames, "love");
+
+      const score = Number(`${trueCount}${loveCount}`);
+      let message = `Your score is ${score}.`;
+
+      if (score < 10 || score > 90) {
+        message += " You go together like coke and mentos! 💥";
+      } else if (score >= 40 && score <= 50) {
+        message += " You are alright together. 💫";
+      }
+
+      document.getElementById("result").innerText = message;
+    }
+
+    function countLetters(text, letters) {
+      let count = 0;
+      for (let char of letters) {
+        count += (text.split(char).length - 1);
+      }
+      return count;
+    }
+  </script>
+
+</body>
+</html>
