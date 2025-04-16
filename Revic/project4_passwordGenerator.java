@@ -38,6 +38,7 @@ for(int i=0; i<=let-1; i++){
 char[] total = new char[num+let+sym];
 for(int i=0; i<num; i++){
     total[i]=numa[i];
+
 }
 for(int j=num; j<num+sym; j++){
     total[j]=syma[j-num];
@@ -56,5 +57,5 @@ for(int i=0; i<total.length;i++){
 for(int i=0; i<total.length; i++){
     System.out.print(total[i]);
 }
-    }  
+
 }
