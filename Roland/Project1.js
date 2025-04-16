@@ -141,3 +141,74 @@ while (!gameOver){
             break;
         }
 }
+
+// Project 6
+function addition(m,n){
+    k =  parseInt(m + n);
+    return k;
+ }
+
+ function subtraction(m,n){
+    k = parseInt(m - n);
+    return k;
+ }
+
+ function multiplication(m,n){
+    k = parseInt(m*n);
+    return k;
+ }
+
+ function division(m,n){
+     if (n !== 0){
+         k = parseFloat(m/n);
+        return k};
+ }
+
+const operations = {
+    "+" : addition(),
+    "-" : subtraction(),
+    "*" : multiplication(),
+    "/" : division(),
+};
+
+let m = parseInt(prompt("Enter the first number\n"));
+
+let continu = true;
+
+while(continu){
+        console.log("Pick an operation");
+        let operation = prompt(`+, -, *, /\n`);
+        let n = parseInt(prompt("Enter the next number\n"));
+    try{
+        if (operation === "+"){
+            console.log(`answer is ${addition(m,n)}`);
+        } else if (operation === "-"){
+            console.log(`answer is ${subtraction(m,n)}`);
+        } else if (operation === "*"){
+            console.log(`answer is ${multiplication(m,n)}`);
+        } else if (operation === "/"){
+            console.log(`answer is ${division(m,n)}`);
+        } else{
+            throw new Error("operation is invalid")
+        }
+        } catch(error){
+            console.log(error.message);
+            break;
+    }
+    
+    while(true){
+        try{
+        const cont = prompt("Would you like to continue\n");
+        if (cont === "yes"){
+            continu = true;
+            break;
+        } else if (cont === "no"){
+            continu = false;
+            break;
+        } else {
+            throw new Error ("Enter yes or no");}
+        } catch (error){ console.log(error.message)}}
+    m = k;
+}
+console.log("Exiting Calculator... ");
+console.log ("          GOODBYE        ");

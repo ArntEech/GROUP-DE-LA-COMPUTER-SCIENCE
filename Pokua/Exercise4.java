@@ -20,8 +20,9 @@ public class Exercise4 {
         System.out.println("aSwitched - " + a);
         System.out.println("bSwitched - " + b);
 
-
-        input.close()
+        
+        Java-programming-b4
+        input.close();
     }
     
 
