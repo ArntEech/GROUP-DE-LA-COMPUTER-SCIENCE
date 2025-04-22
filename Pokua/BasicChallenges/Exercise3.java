@@ -1,4 +1,4 @@
-// Execise 3 - Inputs Exercise
+package BasicChallenges;// Execise 3 - Inputs Exercise
 
 // Instructions
 // Write a program that prints the number of characters in a user's name.

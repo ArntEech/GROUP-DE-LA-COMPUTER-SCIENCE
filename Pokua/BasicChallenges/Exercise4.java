@@ -1,4 +1,4 @@
-// Write a program that switches the values stored in the variables 'a' and 'b'.
+package BasicChallenges;// Write a program that switches the values stored in the variables 'a' and 'b'.
 // Your code should work for different inputs. e.g. any value of a and b 
 
 import java.util.Scanner;

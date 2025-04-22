@@ -1,4 +1,4 @@
-// Execise 2 - Debugging
+package BasicChallenges;// Execise 2 - Debugging
 // Fix the code below 
 // print(Day 1 - String Manipulation")
 // print("String Concantenation is done with the "+" sign.")

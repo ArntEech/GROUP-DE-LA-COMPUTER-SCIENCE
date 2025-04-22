@@ -1,3 +1,5 @@
+package BasicChallenges;
+
 public class exercise18 {
 
     public static void main(String[] args){

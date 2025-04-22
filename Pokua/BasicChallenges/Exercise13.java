@@ -1,3 +1,5 @@
+package BasicChallenges;
+
 import java.util.Random;
 
 public class Exercise13 {

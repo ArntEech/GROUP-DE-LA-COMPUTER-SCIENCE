@@ -1,4 +1,4 @@
-// Write a program to display the output below exactly as it is
+package BasicChallenges;// Write a program to display the output below exactly as it is
 
 public class Exercise1 {
 

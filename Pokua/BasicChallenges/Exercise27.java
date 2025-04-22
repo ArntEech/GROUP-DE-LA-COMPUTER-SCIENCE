@@ -1,3 +1,5 @@
+package BasicChallenges;
+
 import java.util.HashMap;
 
 public class Exercise27 {
