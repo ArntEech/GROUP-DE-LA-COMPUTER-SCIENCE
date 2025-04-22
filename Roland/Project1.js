@@ -78,3 +78,137 @@ const allChars = [...letterCharacters, ...symbolCharacters, ...numberCharacters]
 }
 
 generatePassword();
+
+//Project 5
+
+console.log("Welcome to Treasure Island.");
+console.log("Your mission is to find the treasure.");
+
+let gameOver = false
+let decision
+
+while (!gameOver){
+    try{
+    decision = prompt("You're at a crossroad. Where do you want to go? Type \"left\" or \"right\"\n").toLowerCase();
+
+    if (decision === "right"){
+        console.log("You've fallen into a hole, GAME OVER");
+        gameOver = true;
+        break;
+    } else if (decision === "left"){
+        console.log("You've come to a lake");
+    } else {
+        throw new Error ("Make sure to input Left or Right");
+    }
+    }
+    catch(error){
+        console.log(error.message)
+    }
+
+
+    try{
+       decision = prompt("There is an island in the middle of the lake. Type \"wait\" to wait for a boat. Type \"swim\" to swim across.\n").toLowerCase();
+       
+       if (decision === "wait"){
+           console.log("You arrive at the island unharmed");
+           
+       } else if (decision === "swim"){
+           console.log("You were attacked and killed by trout, GAME OVER");
+           gameOver = true;
+           break;
+       } else {
+           throw new Error ("Make sure to input wait or swim");
+       }
+    }
+    catch (error){ console.log(error.message) }
+    
+    
+        decision = prompt("There is a house with 3 doors. One red, one yellow and one blue. Which colour do you choose?\n").toLowerCase();
+        
+        if (decision === "red"){
+            console.log("It's a room full of fire. GAME OVER");
+            gameOver = true;
+            break;
+        } else if (decision === "yellow"){
+            console.log("You found the treasure! You Win!");
+            break;
+        }else if (decision === "blue"){
+            console.log("You enter a room of beasts. GAME OVER");
+            gameOver = true;
+            break;
+        } else { console.log("You chose a door that doesn't exist. GAME OVER.")
+            gameOver = true;
+            break;
+        }
+}
+
+// Project 6
+function addition(m,n){
+    k =  parseInt(m + n);
+    return k;
+ }
+
+ function subtraction(m,n){
+    k = parseInt(m - n);
+    return k;
+ }
+
+ function multiplication(m,n){
+    k = parseInt(m*n);
+    return k;
+ }
+
+ function division(m,n){
+     if (n !== 0){
+         k = parseFloat(m/n);
+        return k};
+ }
+
+const operations = {
+    "+" : addition(),
+    "-" : subtraction(),
+    "*" : multiplication(),
+    "/" : division(),
+};
+
+let m = parseInt(prompt("Enter the first number\n"));
+
+let continu = true;
+
+while(continu){
+        console.log("Pick an operation");
+        let operation = prompt(`+, -, *, /\n`);
+        let n = parseInt(prompt("Enter the next number\n"));
+    try{
+        if (operation === "+"){
+            console.log(`answer is ${addition(m,n)}`);
+        } else if (operation === "-"){
+            console.log(`answer is ${subtraction(m,n)}`);
+        } else if (operation === "*"){
+            console.log(`answer is ${multiplication(m,n)}`);
+        } else if (operation === "/"){
+            console.log(`answer is ${division(m,n)}`);
+        } else{
+            throw new Error("operation is invalid")
+        }
+        } catch(error){
+            console.log(error.message);
+            break;
+    }
+    
+    while(true){
+        try{
+        const cont = prompt("Would you like to continue\n");
+        if (cont === "yes"){
+            continu = true;
+            break;
+        } else if (cont === "no"){
+            continu = false;
+            break;
+        } else {
+            throw new Error ("Enter yes or no");}
+        } catch (error){ console.log(error.message)}}
+    m = k;
+}
+console.log("Exiting Calculator... ");
+console.log ("          GOODBYE        ");
