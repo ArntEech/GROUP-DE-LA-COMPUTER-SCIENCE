@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Papa's Pizza Order</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #fff7e6, #ffe6cc);
+      color: #333;
+      padding: 40px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      color: #c0392b;
+      margin-bottom: 10px;
+    }
+
+    .order-box {
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      display: inline-block;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    label {
+      display: block;
+      margin-top: 20px;
+      font-weight: bold;
+    }
+
+    select, input[type="radio"] {
+      margin: 10px;
+      font-size: 1em;
+    }
+
+    button {
+      padding: 10px 25px;
+      font-size: 1em;
+      margin-top: 20px;
+      background-color: #e74c3c;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #c0392b;
+    }
+
+    #result {
+      margin-top: 25px;
+      font-size: 1.4em;
+      font-weight: bold;
+      color: #2c3e50;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🍕 Papa's Pizza</h1>
+  <p>Welcome! Let’s build your perfect pizza.</p>
+
+  <div class="order-box">
+    <label for="size">Choose pizza size:</label>
+    <select id="size">
+      <option value="small">Small (GHS 45)</option>
+      <option value="medium">Medium (GHS 70)</option>
+      <option value="large">Large (GHS 95)</option>
+    </select>
+
+    <label>Do you want pepperoni?</label>
+    <input type="radio" name="pepperoni" id="pepYes" value="yes" checked>
+    <label for="pepYes">Yes</label>
+    <input type="radio" name="pepperoni" id="pepNo" value="no">
+    <label for="pepNo">No</label>
+
+    <label>Do you want extra cheese?</label>
+    <input type="radio" name="cheese" id="cheeseYes" value="yes">
+    <label for="cheeseYes">Yes</label>
+    <input type="radio" name="cheese" id="cheeseNo" value="no" checked>
+    <label for="cheeseNo">No</label>
+
+    <button onclick="calculateBill()">Place Order</button>
+
+    <div id="result"></div>
+  </div>
+
+  <script>
+    function calculateBill() {
+      const size = document.getElementById("size").value;
+      const pepperoni = document.querySelector('input[name="pepperoni"]:checked').value;
+      const cheese = document.querySelector('input[name="cheese"]:checked').value;
+      const resultDiv = document.getElementById("result");
+
+      let bill = 0;
+
+      if (size === "small") {
+        bill += 45;
+        if (pepperoni === "yes") bill += 8;
+      } else if (size === "medium") {
+        bill += 70;
+        if (pepperoni === "yes") bill += 10;
+      } else if (size === "large") {
+        bill += 95;
+        if (pepperoni === "yes") bill += 10;
+      }
+
+      if (cheese === "yes") {
+        bill += 5;
+      }
+
+      resultDiv.innerHTML = `🧾 Your final bill is: <strong>GHS ${bill}</strong><br>Thanks for choosing Papa's Pizza! 🍕`;
+    }
+  </script>
+</body>
+</html>

@@ -7,6 +7,7 @@ console.log(firstDigit + "+" + secondDigit + "=" + sum);
 
 
  //exercise 6
+//BMI Calculator 1.0 
  let height = prompt("Enter your height in m");
  let weight = prompt("Enter your weight in kg");
  let BMI = weight / (height * height);
