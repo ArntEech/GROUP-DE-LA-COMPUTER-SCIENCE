@@ -1,4 +1,4 @@
-# 🎮 Project 3 - Rock, Paper, Scissors  
+<!-- # 🎮 Project 3 - Rock, Paper, Scissors  
 
 ## 📌 Instructions  
 
@@ -117,4 +117,4 @@ scissors = '''
 
 💡 **Challenge:** Can you make **THE COMPUTER** feel more like a real opponent by adding random taunts and responses?  
 
-🚀 **Good luck, and may the best player win!** 🎯  
+🚀 **Good luck, and may the best player win!** 🎯   -->
