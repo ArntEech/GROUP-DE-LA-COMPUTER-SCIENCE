@@ -109,7 +109,7 @@ What size pizza do you want? S, M, or L: L
 
 Do you want pepperoni? Y or N: Y
 
-Do you want extra cheese? Y of N: N
+Do you want extra cheese? Y or N: N
 
 🔹output:
 
