@@ -291,7 +291,7 @@ class Menu:
 
 # 🔚 Submission Guidelines
 
-✅ Create a folder called `Exercise10`, and store your modules and the main file inside; push to the general repo when finished.
+✅ Create a folder called `Exercise30`, and store your modules and the main file inside; push to the general repo when finished.
 
 📌 Make sure your code is clean and commented
 
