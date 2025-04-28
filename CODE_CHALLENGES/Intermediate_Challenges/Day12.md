@@ -23,6 +23,7 @@ You will begin creating drawings and visual outputs using **graphical modules or
 
 ---
 
+
 ## 💡 Notes:
 
 - You **should not** print to the console — this challenge is about **visual drawing**.
@@ -41,3 +42,25 @@ You will begin creating drawings and visual outputs using **graphical modules or
 ---
 
 🚀 **Stay tuned: More exercises for today will be added soon!**
+
+
+# ✏️ Exercise 33 - Draw a Dashed Line
+
+## 📝 Instructions:
+
+- Your task is to **draw a dashed (broken) horizontal line** using the **graphics module** or **drawing library** available in your programming language.
+- The dashed line should consist of **multiple short visible segments** separated by **invisible gaps**.
+
+## 🌐 Guidance:
+
+- 📚 **Research how to:**
+  - Move the drawing object forward while **drawing a visible line**.
+  - Temporarily **stop drawing** (i.e., lift the pen/disable drawing).
+  - Move forward again **without drawing** (create a gap).
+  - Resume **drawing again** after the gap.
+- 🔁 Repeat this pattern multiple times (about 15 dashes recommended).
+
+✅ Your dashed line must appear visually on the screen or drawing canvas.  
+✅ Dashes and gaps should look balanced and uniform.
+
+---
