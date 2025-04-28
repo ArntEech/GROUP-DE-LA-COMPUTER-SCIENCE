@@ -10,21 +10,16 @@ Example:
 
 /*using prompt() would have been the most basic but since
 
- let name = prompt = ("What is your name", "");
- console.log(name.length);
+
 
 we are using the terminal we use a module in node js*/
 
-const readline = require('readline');
-const rl = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout
-});
+// Display a prompt for the user
+//let user = prompt("What is your name? ");
 
+const user = "Asta Yuno";
 
+let nameEdit = user.trim();
 
-rl.question("What is your name?\En", (answer) => {
-    console.log(answer.length);
-    rl.close();
-
-})
+// Display the length of the name
+console.log(`Your name has ${nameEdit.length} characters.`);
