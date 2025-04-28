@@ -64,3 +64,55 @@ You will begin creating drawings and visual outputs using **graphical modules or
 ✅ Dashes and gaps should look balanced and uniform.
 
 ---
+
+
+# ✏️ Exercise 34 - Draw Overlaid Shapes
+
+## 📝 Instructions:
+
+- Your task is to **draw multiple different regular polygons** (shapes) overlaid on each other using your **graphics module** or **drawing library**.
+- The shapes you need to draw:
+  - Triangle (3 sides)
+  - Square (4 sides)
+  - Pentagon (5 sides)
+  - Hexagon (6 sides)
+  - Heptagon (7 sides)
+  - Octagon (8 sides)
+  - Nonagon (9 sides)
+  - Decagon (10 sides)
+
+- **Requirements:**
+  - Each shape must have a **different pen color**.
+  - All shapes should be **overlaid (drawn on the same center or origin)** without moving the base position.
+
+## 🌐 Guidance:
+
+- 📚 **Research:**
+  - How to change **pen or stroke color**.
+  - How to draw polygons by moving forward and turning by a certain angle.
+  - **Hint:**  
+    The angle to turn for each shape = `360 ÷ number of sides`.
+    - Example: A square has 4 sides → `360 ÷ 4 = 90 degrees` turn at each corner.
+- 🔄 For each shape:
+  - Change the color.
+  - Loop through the correct number of sides.
+  - Move forward and turn accordingly.
+
+---
+
+## 🎯 Reference Output:
+
+Your final drawing should look similar to this:
+
+![outcome](https://github.com/user-attachments/assets/f9062b9d-b34b-4fb4-94b0-a56936b28a31)
+
+
+---
+
+✅ Focus on **movement, rotation, color changing, and shape logic**.
+
+✅ Make sure your graphics canvas or screen stays open after drawing so you can view your work.
+
+---
+
+
