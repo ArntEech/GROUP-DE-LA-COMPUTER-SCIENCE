@@ -154,9 +154,61 @@ Your final drawing should look similar to this:
 - ✅ Only the **direction and color must change randomly** at each step.
 - ✅ Make sure your graphics screen stays open after the drawing finishes so you can admire your work.
 
+---
 
 
 ---
+
+# ✏️ Exercise 36 - Draw a Spirograph
+
+## 📝 Instructions:
+
+- Your task is to **draw a spirograph** — a beautiful circular pattern made up of **many overlapping circles**.
+- Each circle should have a **slightly different rotation angle** from the previous one.
+- Each circle should also be drawn in a **random color** to create a colorful spiral effect.
+
+---
+
+## 🌐 Objectives:
+
+- 🎯 Learn how to **draw a full circle**.
+- 🎯 Learn how to **rotate** the drawing object a little after each circle is drawn.
+- 🎯 Learn how to **generate random RGB colors** (or use a random color palette if your language does not support RGB directly).
+- 🎯 Adjust the **speed** for smooth fast drawing.
+
+---
+
+## 🌐 Guidance:
+
+- 📚 Research how to:
+  - Draw a **full circle** using your graphics/drawing library.
+  - **Rotate** your drawing tool or object by a small degree (e.g., 5 degrees) after each circle.
+  - Generate **random colors** for variety.
+  - Increase **drawing speed** to complete the pattern faster.
+
+- 🔄 Repeat the process:
+  - Draw a circle.
+  - Rotate slightly.
+  - Draw the next circle.
+  - Keep repeating for **about 200 rotations** to create the full spirograph.
+
+- 🎨 If your language allows (e.g., Python turtle), you can set color using RGB values. Otherwise, use a random color from a predefined list.
+
+---
+## 💡 Important:
+
+- ✅ Draw **one full circle** each time.
+- ✅ Rotate your object by a **small fixed angle** (e.g., 5 degrees) before drawing the next circle.
+- ✅ Use **different random colors** for each circle.
+- ✅ Keep your pen down throughout the drawing.
+- ✅ At the end of your program, it should look similar to the pic below:
+![image](https://github.com/user-attachments/assets/369f01b2-d6c4-40fa-abbd-e1aaa60ae85d)
+
+---
+
+
+
+
 
 
 
