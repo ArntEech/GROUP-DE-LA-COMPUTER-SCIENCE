@@ -24,7 +24,7 @@ Accra
 What's your pet's name?
 Buddy
 
-Your band name could be: Accra Buddy
+Your band name could be:   Buddy
 
 ---
 

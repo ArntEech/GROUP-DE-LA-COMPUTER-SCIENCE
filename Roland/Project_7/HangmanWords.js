@@ -213,3 +213,5 @@ word_list = [
     'zodiac', 
     'zombie', 
     ];
+
+    export { word_list };
