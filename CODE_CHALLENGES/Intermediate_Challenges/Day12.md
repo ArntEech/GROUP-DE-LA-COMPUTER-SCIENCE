@@ -115,4 +115,48 @@ Your final drawing should look similar to this:
 
 ---
 
+# ✏️ Exercise 35 - Random Walk (Fixed Distance)
+
+## 📝 Instructions:
+
+- Your task is to create a **random walk simulation** where a drawing object moves **forward by a fixed distance** every time, but **randomizes its direction** at each turn.
+- Each movement should also use a **random color**.
+
+---
+
+## 🌐 Objectives:
+
+- 📏 Learn how to **set a fixed movement distance** for each step.
+- 🎨 Learn how to **change the color randomly** after every move.
+- 🧭 Move in **cardinal directions only**: North (0°), East (90°), South (180°), or West (270°).
+- 🎲 Randomize the **direction** and the **color** after each move.
+- 📈 Increase the **pen thickness** for better visibility.
+- ⚡ Speed up your drawing object's movement for faster completion.
+
+---
+
+## 🌐 Guidance:
+
+- 📚 Research how to:
+  - Set a **fixed pen width** or thickness.
+  - Change **pen colors randomly** from a list of color names.
+  - Move **forward a constant distance** every time (e.g., 20 units).
+  - Turn randomly among **0°, 90°, 180°, or 270°** after each move.
+  - Increase the **drawing speed**.
+
+- 🔁 Repeat the process for about **100 steps** (or more for a longer walk).
+- 🖍️ Use **bright and varied colors** to make the walk colorful and lively.
+
+---
+
+## 💡 Important:
+- ✅ **Distance moved must stay the same** every time (e.g., always 20 units).
+- ✅ Only the **direction and color must change randomly** at each step.
+- ✅ Make sure your graphics screen stays open after the drawing finishes so you can admire your work.
+
+
+
+---
+
+
 
