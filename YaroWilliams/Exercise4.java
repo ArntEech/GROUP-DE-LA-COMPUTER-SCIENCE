@@ -4,6 +4,7 @@ public class Exercise4 {
         // Exercise4 --Swapping Variables--
         Scanner input = new Scanner(System.in);
         System.out.println("a: ");
+        // Take input from the user
         int a = input.nextInt();
 
         System.out.println("b: ");

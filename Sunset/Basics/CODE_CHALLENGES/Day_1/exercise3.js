@@ -10,12 +10,9 @@ Example:
 
 /*using prompt() would have been the most basic but since
 
- let name = prompt ("What is your name", "");
- console.log(name.length);
+
 
 we are using the terminal we use a module in node js*/
-
-// This program counts the number of characters in a user's name, including spaces.
 
 // Display a prompt for the user
 //let user = prompt("What is your name? ");
