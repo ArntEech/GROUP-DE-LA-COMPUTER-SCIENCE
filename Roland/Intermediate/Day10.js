@@ -11,3 +11,13 @@ class menuItem {
         this.ingredients = {water,milk,coffee};
     }
 }
+
+class Menu {
+    constructor(){
+        this.menu = [
+            new menuItem("espresso",15,18,0,50),
+            new menuItem(),
+            new menuItem()
+        ];
+    }
+}
