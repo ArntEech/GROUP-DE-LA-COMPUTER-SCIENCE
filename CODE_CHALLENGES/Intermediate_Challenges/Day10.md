@@ -178,7 +178,7 @@ from money_machine import MoneyMachine
 class CoffeeMaker:
     """Models the machine that makes the coffee"""
     def __init__(self):
-        self.resources = {
+        self.resourclass coffeeMachineMainces = {
             "water": 300,
             "milk": 200,
             "coffee": 100,
