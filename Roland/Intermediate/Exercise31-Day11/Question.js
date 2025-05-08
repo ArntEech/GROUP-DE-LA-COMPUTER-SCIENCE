@@ -6,3 +6,5 @@ class Question{
         this.#answer = answer;
     }
 }
+
+module.exports = {Question};
