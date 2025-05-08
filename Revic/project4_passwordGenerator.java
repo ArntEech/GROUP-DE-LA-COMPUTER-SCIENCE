@@ -58,4 +58,9 @@ for(int i=0; i<total.length; i++){
     System.out.print(total[i]);
 }
 
+<<<<<<< HEAD
+}
+
+=======
+>>>>>>> 50efc44e36174c2bf75bd3ff49c7b49ddf096c47
 }
