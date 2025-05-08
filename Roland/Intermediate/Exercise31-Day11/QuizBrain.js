@@ -1,7 +1,10 @@
-import {questionData} from 'Exercise31-Day11/Data.js';
-
-function quizBrain() {
-    let currentQuestionIndex
-    let score
-    let questionList
+class quizBrain {
+    constructor(questions){
+        this.questionNumber = 0;
+        this.score = 0;
+        this.questionList = questions;
+    }
+    stillHasQuestions(){
+        return this.questionNumber < this.questionList;
+    }
 }
