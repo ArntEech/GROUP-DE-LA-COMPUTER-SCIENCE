@@ -17,4 +17,15 @@ class quizBrain {
         );
         this.checkAnswer(userAnswer, currentQuestion.answer);
     }
+    
+    checkAnswer(userAnswer, correctAnswer) {
+        if (userAnswer.toLowerCase() === correctAnswer.toLowerCase()) {
+            this.score++;
+            console.log("You got it right!");
+        } else {
+            console.log("That's wrong.");
+        }
+        console.log(`The correct answer was: ${correctAnswer}.`);
+        console.log(`Your current score: ${this.score}/${this.questionNumber}\n`);
+    }
 }
