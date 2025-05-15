@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>🎮 Rock, Paper, Scissors</title>
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      background: linear-gradient(to right, #1e3c72, #2a5298);
+      color: #fff;
+      text-align: center;
+      padding: 2em;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 0.2em;
+    }
+
+    p {
+      font-size: 1.2em;
+    }
+
+    button {
+      margin: 10px;
+      padding: 15px 30px;
+      font-size: 16px;
+      cursor: pointer;
+      border: none;
+      border-radius: 8px;
+      background-color: #0d6efd;
+      color: white;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: #084298;
+    }
+
+    pre {
+      font-size: 13px;
+      line-height: 1.2;
+      color: #fffd;
+    }
+
+    #result h2 {
+      margin-top: 20px;
+    }
+
+    #result, #play-again {
+      margin-top: 1em;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🎮 Rock, Paper, Scissors</h1>
+  <p>Choose your move:</p>
+
+  <button onclick="playRound(0)">🪨 Rock</button>
+  <button onclick="playRound(1)">✂️ Scissors</button>
+  <button onclick="playRound(2)">📄 Paper</button>
+
+  <div id="result"></div>
+  <div id="play-again"></div>
+
+  <script>
+    const asciiArt = [
+      `
+    _______
+---'   ____)
+      (_____)
+      (_____)
+      (____)
+---.__(___)
+      `,
+      `
+    _______
+---'   ____)____
+          ______)
+       __________)
+      (____)
+---.__(___)
+      `,
+      `
+    _______
+---'   ____)____
+          ______)
+          _______)
+         _______)
+---.__________)
+      `
+    ];
+
+    const choices = ["Rock", "Scissors", "Paper"];
+
+    function playRound(playerChoice) {
+      const computerChoice = Math.floor(Math.random() * 3);
+      const resultDiv = document.getElementById("result");
+      const againDiv = document.getElementById("play-again");
+
+      let resultText = `<h2>You chose: ${choices[playerChoice]}</h2><pre>${asciiArt[playerChoice]}</pre>`;
+      resultText += `<h2>The COMPUTER chose: ${choices[computerChoice]}</h2><pre>${asciiArt[computerChoice]}</pre>`;
+
+      if (playerChoice === computerChoice) {
+        resultText += `<h2>It's a tie! 🤝</h2>`;
+      } else if (
+        (playerChoice === 0 && computerChoice === 1) ||
+        (playerChoice === 1 && computerChoice === 2) ||
+        (playerChoice === 2 && computerChoice === 0)
+      ) {
+        resultText += `<h2>You WIN! 🎉</h2>`;
+      } else {
+        resultText += `<h2>THE COMPUTER Wins! 😎</h2>`;
+      }
+
+      resultDiv.innerHTML = resultText;
+      againDiv.innerHTML = `<button onclick="resetGame()">Play Again 🎮</button>`;
+    }
+
+    function resetGame() {
+      document.getElementById("result").innerHTML = "";
+      document.getElementById("play-again").innerHTML = "";
+    }
+  </script>
+
+</body>
+</html>

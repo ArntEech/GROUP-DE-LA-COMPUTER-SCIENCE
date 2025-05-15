@@ -21,6 +21,8 @@ public class Exercise4 {
         System.out.println("bSwitched - " + b);
 
         
+        Java-programming-b4
+        input.close();
     }
     
 
